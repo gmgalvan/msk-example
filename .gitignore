@@ -2,7 +2,6 @@
 node_modules/
 
 # Pulumi state and configuration files
-Pulumi.yaml
 Pulumi.*.yaml
 *.pulumi.*
 *.bak
@@ -30,3 +29,5 @@ Thumbs.db
 # Optional: lock files (uncomment if you prefer not to commit them)
 # package-lock.json
 # yarn.lock
+
+*.pem

@@ -1,0 +1,7 @@
+name: msk
+runtime: nodejs
+description: AWS MSK (Managed Streaming for Apache Kafka) cluster deployment with security groups, SCRAM authentication, encryption, and monitoring
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript

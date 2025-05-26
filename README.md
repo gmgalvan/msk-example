@@ -8,4 +8,4 @@ Complete AWS Managed Streaming for Apache Kafka cluster with IAM and SCRAM authe
 - Pulumi CLI + ESC CLI
 - AWS CLI configured
 - Node.js & TypeScript
-
+- EC2 key pair for SSH access
