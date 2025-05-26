@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# Pulumi state and configuration files
+Pulumi.yaml
+Pulumi.*.yaml
+*.pulumi.*
+*.bak
+
+# TypeScript build output
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Environment variable files
+.env
+.env.*
+
+# Optional: lock files (uncomment if you prefer not to commit them)
+# package-lock.json
+# yarn.lock
