@@ -31,3 +31,7 @@ Thumbs.db
 # yarn.lock
 
 *.pem
+
+.env.ec2
+
+*certs/

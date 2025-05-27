@@ -24,10 +24,10 @@ from aws_msk_iam_sasl_signer import MSKAuthTokenProvider
 
 # ─── USER SETTINGS ───────────────────────────────────────────────────────────
 REGION           = os.getenv("AWS_DEFAULT_REGION", "us-east-1")
-BROKERS          = os.getenv(
+BROKERS = os.getenv(
     "MSK_BROKERS",
-    "b-1.xxxxx.xxxxx.xxx.kafka.us-xxxx-1.amazonaws.com:9098,"
-    "b-2.xxxxx.xxxx.c2xxx3.kafka.us-xxxx-1.amazonaws.com:9098"
+    "b-1.your-cluster.xxxxx.c23.kafka.us-east-1.amazonaws.com:9098,"
+    "b-2.your-cluster.xxxxx.c23.kafka.us-east-1.amazonaws.com:9098"
 ).split(",")
 TOPIC            = os.getenv("MSK_TOPIC", "xxxx-xxxx-xxxx-xxxx")  # e.g. "my-topic"
 ROLE_ARN         = os.getenv("ROLE_ARN")            # optional – for sts assume
